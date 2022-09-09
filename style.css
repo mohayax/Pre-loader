@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    color: lightgray;
+}
+
+.container{
+    text-align: center;
+    width: 300px;
+    position: relative;
+}
+
+.counter{
+    font-size: 50px;
+}
+
+.loading-back{
+    position: absolute;
+    background-color: lightgray;
+    height: 8px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+}
+
+.loading-front{
+    position: absolute;
+    background-color: orangered;
+    height: 8px;
+    width: 0%;
+    border-radius: 5px;
+    border: none;
+}
